@@ -11,6 +11,6 @@ class String
       difference = 360 - difference
     end
 
-    difference
+    difference.abs()
   end
 end
